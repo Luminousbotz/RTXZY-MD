@@ -8,8 +8,14 @@ let numberowner = global.numberowner
 let anu = `Hai 👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
 ┌〔 Donasi • Emoney 〕
-├ Dana : ${dana}
-├ Pulsa : ${pulsa}
+├ 📍 *BNK MAYBANK*
+├No: 008074679622
+├
+├ 📍 *Touch nGO* 
+├ No: 1151905021
+├
+├ 📍 *SHOPE PAY*
+├  No: +601151905021
 └────
 Berapapun donasi kalian akan sangat berarti 👍
 
