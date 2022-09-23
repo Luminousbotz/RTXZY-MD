@@ -7,21 +7,21 @@
 //Dalam file _menunya.js
 
 //『 Utama 』 //
-global.owner = ['6282xxxxxx']  // isi jika perlu
+global.owner = ['601127833767']  // isi jika perlu
 global.mods = ['6282xxxxxx']   // isi jika perlu
-global.prems = ['6282xxxxxx']  // isi jika perlu
+global.prems = ['62895327934887']  // isi jika perlu
 
 //Isi dengan nama dan nomor lu//
-global.nameowner = '⫹⫺ OWNER' // isi nama kalian bebas
-global.numberowner = '6282xxxxxx' // isi nomor kalian dengan awalan seperti di contoh 
-global.dana = '6282xxxxxx' // isi dengan nomor dana yg kamu punya 
-global.pulsa = '6282xxxxxx' // isi dengan nomor pulsa hp kalian
-global.gopay = '6282xxxxxx'
+global.nameowner = '⫹⫺ Cadbury Ensem' // isi nama kalian bebas
+global.numberowner = '601127833767' // isi nomor kalian dengan awalan seperti di contoh 
+global.dana = '-' // isi dengan nomor dana yg kamu punya 
+global.pulsa = '-' // isi dengan nomor pulsa hp kalian
+global.gopay = '-'
 
 //Name Bot & Grouplink//
 global.namebot = 'R-txzyMd'
-global.gc = 'https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL'
-global.web = 'https://myblogxyz.netlify.app' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.gc = 'https://chat.whatsapp.com/GU6aanJJuz3ARqH1LeFY9W'
+global.web = 'https://lynk.id/kri.com' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 
 //Tanpilan wm Bot //
 global.lolkey = 'rey2k22' //biar mudah ngegantinya semisal apikeynya expired:v
@@ -39,8 +39,8 @@ global.eror = '_*Server Error*_'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
-global.packname = 'Made with'
-global.author = 'Bot WhatsApp\nR-TXZY-MD'
+global.packname = 'Bot WhatsApp\nR-TXZY-MD'
+global.author = 'By KrizynOfc'
 
 //Apikey Setting//
 global.APIs = { // API Prefix
