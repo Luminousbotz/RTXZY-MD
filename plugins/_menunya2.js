@@ -9,7 +9,7 @@
     let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
     let ar = ['list', 'menu']
     let yo = `Hai @${m.sender.split('@')[0]} 👋`
-    let tio = `*© RTXZY-TEAM*`
+    let tio = `*Yume Chan*`
     let liv = `CLICK HERE`
     const sections = [ {
       	title: `Aktif ${uptime} || Jam ${time} WIB`,
@@ -18,7 +18,6 @@
         {title: `All Menu V2`, rowId: `.pay `},//, description: ``},
         {title: `Owner`, rowId: `#owner `},//, description: ``},
         {title: `Donasi`, rowId: `#donasi `},//, description: ``},
-        {title: `Script`, rowId: `#sc `},//, description: ``},
         {title: `Group Official`, rowId: `#gcbot `},//, description: ``},
         {title: `Speed`, rowId: `#speed `},//, description: ``},
         {title: `List Texpro Maker`, rowId: `#textpro `},//, description: ``},
