@@ -1,4 +1,4 @@
-let fs = require('fs')
+
 global.thumbt = global.img
 global.fsx = 999999999999
 
