@@ -757,8 +757,8 @@ module.exports = {
     externalAdReply :{
     mediaUrl: linkyt,
     mediaType: 'FOTO',
-    description: deslink , 
-    title: titlink,
+    description: 'Yume' , 
+    title: 'simple bot',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
     sourceUrl: linkgc
