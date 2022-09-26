@@ -81,7 +81,6 @@ global.APIs = { // API Prefix
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
   rey: 'https://server-api-rey.herokuapp.com',
   males: 'https://malesin.xyz'
-  zenz : 'https://zenzapis.xyz'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
