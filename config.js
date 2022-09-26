@@ -105,7 +105,6 @@ global.multiplier = 69 // The higher, The harder levelup
 
 global.baileys = require('@adiwajshing/baileys')
 global.fs = require('fs')
-global.data = JSON.parse(fs.readFileSync('./data.json'))
 global.fetch = require('node-fetch')
 global.bochil = require('@bochilteam/scraper')
 
