@@ -89,6 +89,23 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     const wib = moment.tz('Asia/Jakarta').format("HH:mm:ss")
     const wita = moment.tz('Asia/Makassar').format("HH:mm:ss")
     const wit = moment.tz('Asia/Jayapura').format("HH:mm:ss")
+    const fload = {
+    key : {
+    remoteJid: 'status@broadcast',
+    participant : '0@s.whatsapp.net'
+    },
+    message: {
+    orderMessage: {
+    itemCount : 999,
+    status: 1,
+    surface : 1,
+    message: '[❗] Memuat Menu...',
+    orderTitle: `▮Menu ▸`,
+    thumbnail: await (await fetch('https://telegra.ph/file/07670d227a3c0d459ca40.jpg')).buffer(), //Gambarnye
+    sellerJid: '0@s.whatsapp.net' 
+    }
+    }
+    }
     let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]
     let week = d.toLocaleDateString(locale, { weekday: 'long' })
     let date = d.toLocaleDateString(locale, {
@@ -174,6 +191,9 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
+    
+    await conn.reply(m.chat, '*L o a d i n g . . .*', fload) 
+    
     let fetch = require('node-fetch') 
 const ftroli = {
 	key : {
@@ -184,21 +204,21 @@ const ftroli = {
                             itemCount : 9999999999999,
                             status: 1,
                             surface : 1,
-                            message: '© TioXd Official',
-                            orderTitle: 'MENU',
-                            thumbnail: await (await fetch('https://telegra.ph/file/3911d7aaaa8733314f70f.png')).buffer(),
+                            message: 'ʏᴜᴍᴇ ᴄʜᴀɴ',
+                            orderTitle: 'ᴍᴇɴᴜ',
+                            thumbnail: await (await fetch('https://telegra.ph/file/4e3f1062d4755fd640569.png')).buffer(),
                             sellerJid: '0@s.whatsapp.net'
           
                           }
                         }
                       }
-await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/77d411d5a3808b375c232.jpg')).buffer(),  '*────────[ DASBOARD ]────────*', text, 'INFOBOT', '.info', 'LISTMENU', '.menu', m, {  
+await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/f09fc80d870e684704224.jpg')).buffer(),  '*────────[ DASBOARD ]────────*', text, 'INFOBOT', '.info', 'LISTMENU', '.menu', m, {  
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
               title: 'Bot Wahatsapp Multi Device',  
-              body: '© TioXd', 
-              description: 'Made With ❤️ TioXd', 
+              body: 'ʏᴜᴍᴇ', 
+              description: 'ᴍᴀᴅᴇ ʙʏ ᴍɪᴢᴜᴛᴏ', 
               mediaType: 2,  
             thumbnail: await (await fetch('https://telegra.ph/file/00faf159ce0349901eaf3.jpg')).buffer(), 
            mediaUrl: `https://www.facebook.com/tio.permana.50999` 
