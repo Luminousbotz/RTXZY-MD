@@ -1,36 +1,33 @@
-//Ini untuk setting Bot
-//Untuk gambar background menu ada -
-//Dalam file _menunya.js
-
-//Ini untuk setting Bot
-//Untuk gambar background menu ada -
-//Dalam file _menunya.js
+let fs = require('fs')
+global.thumbt = global.img
+global.fsx = 999999999999
 
 //『 Utama 』 //
-global.owner = ['601127833767']  // isi jika perlu
-global.mods = ['6282xxxxxx']   // isi jika perlu
-global.prems = ['62895327934887']  // isi jika perlu
+global.owner = ['62895627514070']  // isi jika perlu
+global.mods = ['62895627514070']   // isi jika perlu
+global.prems = ['62895627514070']  // isi jika perlu
 
 //Isi dengan nama dan nomor lu//
-global.nameowner = '⫹⫺ Cadbury Ensem' // isi nama kalian bebas
-global.numberowner = '601127833767' // isi nomor kalian dengan awalan seperti di contoh 
+global.nameowner = 'ᴍɪᴢᴜᴛᴏ' // isi nama kalian bebas
+global.numberowner = '62895627524070' // isi nomor kalian dengan awalan seperti di contoh 
 global.dana = '-' // isi dengan nomor dana yg kamu punya 
 global.pulsa = '-' // isi dengan nomor pulsa hp kalian
 global.gopay = '-'
 
 //Name Bot & Grouplink//
-global.namebot = 'R-txzyMd'
-global.gc = 'https://chat.whatsapp.com/GU6aanJJuz3ARqH1LeFY9W'
-global.web = 'https://lynk.id/kri.com' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.namebot = 'Yume'
+global.gc = 'https://chat.whatsapp.com/CZlamemhpn06a5sW063xOg'
+global.web = 'https://github.com/RyhnXD' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.linkgc = 'https://chat.whatsapp.com/CZlamemhpn06a5sW063xOg'
+global.linkyt = 'https//youtube.com'
 
 //Tanpilan wm Bot //
-global.lolkey = 'rey2k22' //biar mudah ngegantinya semisal apikeynya expired:v
-global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = '© R-TXZY-MD'
+global.xkey = 'NezukoTachibana281207'
+global.lolkey = 'sonelganz' //biar mudah ngegantinya semisal apikeynya expired:v
+global.zenzkey = 'f9fccfcff1' //ganti jadi apikey lu kalau expired
+global.wm = '© ʏᴜᴍᴇ ᴄʜᴀɴ'
 global.watermark = wm
-global.wm2 = '⫹⫺ R-TXZY-MD'
-global.wm3 = '© R-TXZY-MD'
-global.wm4 = '© 2021/2022'
+global.wm4 = 'Yume'
 global.htki = '––––––『' 
 global.htka = '』––––––'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
@@ -38,9 +35,25 @@ global.wait = '_*Tunggu sedang di proses...*_'
 global.eror = '_*Server Error*_'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
-global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
+global.stiker_wait = '*[❗] sᴛɪᴄᴋᴇʀ sᴇᴅᴀɴɢ ᴅɪʙᴜᴀᴛ..*'
 global.packname = 'Bot WhatsApp\nR-TXZY-MD'
 global.author = 'By KrizynOfc'
+
+global.WM = '𝑴𝒚𝑩𝒐𝒕-𝑴𝒖𝒍𝒕𝒊 𝑫𝒆𝒗𝒊𝒄𝒆 𝑩𝒚 𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷'
+global.linkig = 'https://www.instagram.com/the.sad.boy01'
+global.deslink = ''
+global.logo = 'https://telegra.ph/file/1665521d176fbf172d735.jpg'
+global.titlink = 'ʟᴜᴍɪɴᴏᴜs-ᴍᴅ'
+global.bodlink = '@the.sad.boy01'
+global.watermark = 'Rimuru-sama'
+
+global.thumbnailUrl = [
+  'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', 'https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
+  'https://telegra.ph/file/6359b013bc7e52c3b346f.jpg', 'https://telegra.ph/file/d43c89a5d2da72875ec05.jpg',
+  'https://telegra.ph/file/7d6c0e35f9c8f52715541.jpg', 'https://telegra.ph/file/ef4b742d47e6a9115e2ff.jpg',
+  'https://telegra.ph/file/55e5af5f33fbd57104187.jpg', 'https://telegra.ph/file/af236598456b95884bd15.jpg',
+  'https://telegra.ph/file/de92ed4a729887ffc974c.jpg', 'https://telegra.ph/file/00ce42a193b1dbbf907d4.jpg'
+]
 
 //Apikey Setting//
 global.APIs = { // API Prefix
@@ -68,6 +81,7 @@ global.APIs = { // API Prefix
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
   rey: 'https://server-api-rey.herokuapp.com',
   males: 'https://malesin.xyz'
+  zenz : 'https://zenzapis.xyz'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
@@ -82,10 +96,21 @@ global.APIKeys = { // APIKey Here
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
   'https://zekais-api.herokuapp.com': 'apikeymu',
   'https://api.lolhuman.xyz': 'Deffbotz',
+  'https://zenzapis.xyz' : 'f9fccfcff1'
 }
 
 //Setting Rpg//
 global.multiplier = 69 // The higher, The harder levelup
+
+//=========== Requirements ==========//
+
+global.baileys = require('@adiwajshing/baileys')
+global.fs = require('fs')
+global.data = JSON.parse(fs.readFileSync('./data.json'))
+global.fetch = require('node-fetch')
+global.bochil = require('@bochilteam/scraper')
+
+
 global.rpg = {
   emoticon(string) {
     string = string.toLowerCase()
